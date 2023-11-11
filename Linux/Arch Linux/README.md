@@ -122,10 +122,11 @@ Package List:
 - [net-tools](https://archlinux.org/packages/core/x86_64/net-tools/) (Linux Networking Tools)
 - [neofetch](https://archlinux.org/packages/community/any/neofetch/) (Optional Command Line System Information Display Application)
 - [ntfs-3g](https://archlinux.org/packages/extra/x86_64/ntfs-3g/) (NTFS File System Read and Write Access)
+- [go](https://archlinux.org/packages/extra/x86_64/go/) (Core Compiler Tools for the Go Programming Language)
  
 ```bash
 # Installing ALL Necessary Packages
-$ pacstrap -K /mnt base base-devel linux linux-firmware sudo nano networkmanager grub efibootmgr os-prober git net-tools neofetch ntfs-3g
+$ pacstrap -K /mnt base base-devel linux linux-firmware sudo nano networkmanager grub efibootmgr os-prober git neofetch ntfs-3g go
 ```
 
 > 7. Generating FSTAB
