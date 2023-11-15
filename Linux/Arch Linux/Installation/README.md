@@ -255,18 +255,6 @@ $ pacman -S amd-ucode
 $ pacman -S intel-ucode
 ```
 
-> 15. Unmounting and Rebooting 
-```bash
-# Exit the chroot environment
-$ CTRL-D or exit
-
-# Unmount '/mnt'
-$ umount -R /mnt
-
-# Restart the Machine
-$ reboot
-```
-
 > Dual Booting Windows Requires The os-prober Package The Pacman Repositories. In Order To Enable This You Need To Edit The Default Grub File.
 ```bash
 # Edit Default Grub File
@@ -277,6 +265,18 @@ $ GRUB_DISABLE_OS_PROBER=false
 
 # Save and Exit
 $ CTRL-S and CTRL-X
+```
+
+> 15. Unmounting and Rebooting 
+```bash
+# Exit the chroot environment
+$ CTRL-D or exit
+
+# Unmount '/mnt'
+$ umount -R /mnt
+
+# Restart the Machine
+$ reboot
 ```
 
 > Post Installation Reference to the [Official Arch Linux General Recommendations](https://wiki.archlinux.org/title/General_recommendations)
