@@ -23,7 +23,7 @@ unix_sock_group = "libvirt"
 unix_sock_rw_perms = "0770" 
 
 # Add your User to the Libvirt Group
-$ sudo usermod -aG wheel $(whoami)
+$ sudo usermod -aG libvirt $(whoami)
 $ newgrp libvirt
 ```
 > 4. Enable Libvirtd Service for Startup
