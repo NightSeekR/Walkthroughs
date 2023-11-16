@@ -30,6 +30,9 @@ $ newgrp libvirt
 ```bash
 # Enable libvirtd.service as a startup service
 $ sudo systemctl enable libvirtd.service
+
+# Reboot System
+$ reboot
 ```
 
 > 5. Post-Reboot Enable & Autostart Default Network for Virt-Manager
@@ -37,7 +40,4 @@ $ sudo systemctl enable libvirtd.service
 # Enable Virtual Network Interface Cards (NIC)
 $ sudo virsh net-start default
 $ sudo virsh net-autostart default
-
-# Reboot System
-$ reboot
 ```
