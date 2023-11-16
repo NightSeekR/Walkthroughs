@@ -37,7 +37,9 @@ $ reboot
 
 > 5. Post-Reboot Enable & Autostart Default Network for Virt-Manager
 ```bash
-# Enable Virtual Network Interface Cards (NIC)
+# Start Default Network for Virt-Manager
 $ sudo virsh net-start default
+
+# Enable Default Network to Automatically Start on System Boot
 $ sudo virsh net-autostart default
 ```
